@@ -6,7 +6,7 @@ PVZRH Launcher（"我们"）运营 PVZRH Launcher Android 应用程序。本隐�
 
 ## 1. 数据控制者
 
-**Modded-PVZRH/**
+**PVZRH Mod Dev**
 GitHub: https://github.com/ModPVZRH
 
 ## 2. 收集的数据
@@ -57,4 +57,4 @@ GitHub: https://github.com/ModPVZRH
 
 ## 9. 开源
 本应用完全开源。您可以在以下地址查看完整源代码：
-https://github.com/HayashiUme/PVZRH.Android.Launcher
+https://github.com/ModPVZRH/PVZRH.Android.Launcher

@@ -2,11 +2,11 @@
 
 **Effective Date:** August 29, 2026
 
-PVZRH Launcher ("we", "our", or "us") operates the PVZRH Launcher Android application. This Privacy Policy explains how personal data is processed when you use the app.
+PVZRH Launcher ("we", "our", or "us") operates the PVZRH Launcher Android application for Plants vs Zombies Fusion modding. This Privacy Policy explains how personal data is processed when you use the app.
 
 ## 1. Data Controller
 
-**Modded-PVZRH/**
+**PVZRH Mod Dev**
 GitHub: https://github.com/ModPVZRH
 
 ## 2. What Data Is Collected
@@ -57,4 +57,4 @@ If you have questions about this Privacy Policy, please contact us via:
 
 ## 9. Open Source
 This application is fully open source. You can review the complete source code at:
-https://github.com/HayashiUme/PVZRH.Android.Launcher
+https://github.com/ModPVZRH/PVZRH.Android.Launcher

@@ -3,7 +3,7 @@ layout: home
 hero:
   name: PVZRH Launcher
   text: BepInEx Loader for Android
-  tagline: Launch Plants vs Zombies RH with BepInEx modding support on Android
+  tagline: Launch Plants vs Zombies Fusion with BepInEx modding support on Android
   actions:
     - theme: brand
       text: Documentation
@@ -13,7 +13,7 @@ hero:
       link: /privacy
     - theme: alt
       text: GitHub
-      link: https://github.com/HayashiUme/PVZRH.Android.Launcher
+      link: https://github.com/ModPVZRH/PVZRH.Android.Launcher
 features:
   - title: Easy Setup
     details: Auto-detect game, extract BepInEx framework, and launch with one tap.

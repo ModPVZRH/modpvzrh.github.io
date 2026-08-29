@@ -13,7 +13,7 @@ hero:
       link: /zh/privacy
     - theme: alt
       text: GitHub
-      link: https://github.com/HayashiUme/PVZRH.Android.Launcher
+      link: https://github.com/ModPVZRH/PVZRH.Android.Launcher
 features:
   - title: 简单易用
     details: 自动检测游戏、解压 BepInEx 框架，一键启动。

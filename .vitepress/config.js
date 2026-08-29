@@ -14,41 +14,41 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Documentation', link: '/docs' },
+          { text: 'Sponsor', link: '/sponsor' },
           { text: 'Privacy Policy', link: '/privacy' },
-          { text: 'GitHub', link: 'https://github.com/HayashiUme/PVZRH.Android.Launcher' }
+          { text: 'GitHub', link: 'https://github.com/ModPVZRH/PVZRH.Android.Launcher' }
         ],
         sidebar: [
           {
             text: 'Guide',
             items: [
-              { text: 'Introduction', link: '/docs#introduction' },
-              { text: 'Installation', link: '/docs#installation' },
-              { text: 'Quick Start', link: '/docs#quick-start' }
+              { text: 'Installation', link: '/installation' },
+              { text: 'Quick Start', link: '/quick-start' }
             ]
           },
           {
             text: 'Features',
             items: [
-              { text: 'Modpack Management', link: '/docs#modpack-management' },
-              { text: 'Settings', link: '/docs#settings' },
-              { text: 'Crash Detection', link: '/docs#crash-detection' },
-              { text: 'Log Viewer', link: '/docs#log-viewer' }
+              { text: 'Modpack Management', link: '/modpacks' },
+              { text: 'Settings', link: '/settings' },
+              { text: 'Crash Detection', link: '/crash-detection' },
+              { text: 'Log Viewer', link: '/log-viewer' }
             ]
           },
           {
             text: 'Help',
             items: [
-              { text: 'Troubleshooting', link: '/docs#troubleshooting' },
-              { text: 'FAQ', link: '/docs#faq' }
+              { text: 'Troubleshooting', link: '/troubleshooting' },
+              { text: 'FAQ', link: '/faq' }
             ]
           }
         ],
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/HayashiUme/PVZRH.Android.Launcher' }
+          { icon: 'github', link: 'https://github.com/ModPVZRH/PVZRH.Android.Launcher' }
         ],
         footer: {
           message: 'PVZRH Launcher',
-          copyright: '©2026 Modded-PVZRH/'
+          copyright: '©2026 PVZRH Mod Dev'
         }
       }
     },
@@ -60,41 +60,41 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh/' },
           { text: '文档', link: '/zh/docs' },
+          { text: '赞助', link: '/zh/sponsor' },
           { text: '隐私政策', link: '/zh/privacy' },
-          { text: 'GitHub', link: 'https://github.com/HayashiUme/PVZRH.Android.Launcher' }
+          { text: 'GitHub', link: 'https://github.com/ModPVZRH/PVZRH.Android.Launcher' }
         ],
         sidebar: [
           {
             text: '指南',
             items: [
-              { text: '简介', link: '/zh/docs#简介' },
-              { text: '安装', link: '/zh/docs#安装' },
-              { text: '快速开始', link: '/zh/docs#快速开始' }
+              { text: '安装', link: '/zh/installation' },
+              { text: '快速开始', link: '/zh/quick-start' }
             ]
           },
           {
             text: '功能',
             items: [
-              { text: '整合包管理', link: '/zh/docs#整合包管理' },
-              { text: '设置', link: '/zh/docs#设置' },
-              { text: '崩溃检测', link: '/zh/docs#崩溃检测' },
-              { text: '日志查看器', link: '/zh/docs#日志查看器' }
+              { text: '整合包管理', link: '/zh/modpacks' },
+              { text: '设置', link: '/zh/settings' },
+              { text: '崩溃检测', link: '/zh/crash-detection' },
+              { text: '日志查看器', link: '/zh/log-viewer' }
             ]
           },
           {
             text: '帮助',
             items: [
-              { text: '故障排查', link: '/zh/docs#故障排查' },
-              { text: '常见问题', link: '/zh/docs#常见问题' }
+              { text: '故障排查', link: '/zh/troubleshooting' },
+              { text: '常见问题', link: '/zh/faq' }
             ]
           }
         ],
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/HayashiUme/PVZRH.Android.Launcher' }
+          { icon: 'github', link: 'https://github.com/ModPVZRH/PVZRH.Android.Launcher' }
         ],
         footer: {
           message: 'PVZRH Launcher',
-          copyright: '©2026 Modded-PVZRH/'
+          copyright: '©2026 PVZRH Mod Dev'
         }
       }
     }
