@@ -1,6 +1,5 @@
 ---
 title: 赞助
-layout: page
 ---
 
 # 赞助

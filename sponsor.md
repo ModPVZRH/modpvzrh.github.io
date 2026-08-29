@@ -1,6 +1,5 @@
 ---
 title: Sponsor
-layout: page
 ---
 
 # Sponsor
