@@ -52,7 +52,7 @@ GitHub: https://github.com/ModPVZRH
 
 ## 8. 联系方式
 如果您对本隐私政策有任何疑问，请通过以下方式联系我们：
-- GitHub: https://github.com/ModPVZRH/PVZRH.Launcher-release/discussions
+- GitHub: https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions
 - QQ 群（国内）: https://qm.qq.com/q/Ig1yGGlkek
 
 ## 9. 开源

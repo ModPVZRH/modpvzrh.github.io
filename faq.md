@@ -35,4 +35,4 @@ A: Verify the mod version matches your game version, check the BepInEx log for e
 A: Try disabling Unstripped libunity, clearing libunity cache, or clearing BepInEx files.
 
 **Q: How do I report a bug?**
-A: Export logs from the crash dialog or log viewer and share them on [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Launcher-release/discussions).
+A: Export logs from the crash dialog or log viewer and share them on [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions).

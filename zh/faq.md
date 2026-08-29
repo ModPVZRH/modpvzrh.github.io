@@ -35,4 +35,4 @@ A: 确认模组版本与游戏版本匹配，检查 BepInEx 日志中的错误�
 A: 尝试关闭未剥离的 libunity、清除 libunity 缓存，或清除 BepInEx 文件。
 
 **Q: 如何报告 Bug？**
-A: 从崩溃弹窗或日志查看器导出日志，然后在 [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Launcher-release/discussions) 分享。
+A: 从崩溃弹窗或日志查看器导出日志，然后在 [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions) 分享。

@@ -52,7 +52,7 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 ## 8. Contact
 If you have questions about this Privacy Policy, please contact us via:
-- GitHub: https://github.com/ModPVZRH/PVZRH.Launcher-release/discussions
+- GitHub: https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions
 - QQ Group (China): https://qm.qq.com/q/Ig1yGGlkek
 
 ## 9. Open Source

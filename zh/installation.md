@@ -11,7 +11,7 @@ title: 安装
 
 ## 步骤
 
-1. 从 [GitHub Releases](https://github.com/ModPVZRH/PVZRH.Launcher-release/releases) 下载最新 APK
+1. 从 [GitHub Releases](https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases) 下载最新 APK
 2. 打开 APK 文件并安装
 3. 按提示授予**所有文件访问**权限
 4. 启动器将自动扫描植物大战僵尸融合版

@@ -11,7 +11,7 @@ title: Installation
 
 ## Steps
 
-1. Download the latest APK from [GitHub Releases](https://github.com/ModPVZRH/PVZRH.Launcher-release/releases)
+1. Download the latest APK from [GitHub Releases](https://github.com/ModPVZRH/PVZRH.Android.Launcher/releases)
 2. Open the APK file and install it
 3. When prompted, grant **All files access** permission
 4. The launcher will automatically scan for Plants vs Zombies Fusion
