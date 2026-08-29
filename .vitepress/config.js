@@ -43,7 +43,8 @@ export default defineConfig({
             text: 'Help',
             items: [
               { text: 'Troubleshooting', link: '/troubleshooting' },
-              { text: 'FAQ', link: '/faq' }
+              { text: 'FAQ', link: '/faq' },
+              { text: 'Contributing', link: '/contributing' }
             ]
           }
         ],
@@ -89,7 +90,8 @@ export default defineConfig({
             text: '帮助',
             items: [
               { text: '故障排查', link: '/zh/troubleshooting' },
-              { text: '常见问题', link: '/zh/faq' }
+              { text: '常见问题', link: '/zh/faq' },
+              { text: '贡献指南', link: '/zh/contributing' }
             ]
           }
         ],
