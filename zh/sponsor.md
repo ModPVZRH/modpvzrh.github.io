@@ -7,7 +7,7 @@ layout: page
 
 如果你觉得 PVZRH Launcher 对你有帮助，可以考虑支持开发。
 
-<div style="text: center; margin: 2rem 0;">
+<div style="text-align: center; margin: 2rem 0;">
   <img src="/sponsor.jpg" alt="赞助二维码" style="max-width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
 </div>
 
