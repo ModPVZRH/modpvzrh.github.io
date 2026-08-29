@@ -16,6 +16,5 @@ Sponsorship is entirely voluntary. You will not receive any rewards or privilege
 
 Your support helps with:
 
-- Server costs and infrastructure
 - Development tools and testing devices
 - Time spent on development and maintenance
