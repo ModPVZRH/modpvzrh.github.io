@@ -31,6 +31,9 @@ A: Verify the mod version matches your game version, check the BepInEx log for e
 
 ## Troubleshooting
 
+**Q: Downloading unstripped libunity is very slow.**
+A: The download is hosted on GitHub and may be slow in some regions. Try using a VPN or proxy to speed it up.
+
 **Q: The game crashes on startup.**
 A: Try disabling Unstripped libunity, clearing libunity cache, or clearing BepInEx files.
 
