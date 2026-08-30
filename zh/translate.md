@@ -11,8 +11,11 @@ title: 翻译指南
 我们使用 [Crowdin](https://crowdin.com/project/pvzrh-launcher) 管理翻译。
 
 1. 访问 [crowdin.com](https://crowdin.com/) 并注册账号
-2. 找到我们的项目：[pvzrh-launcher](https://crowdin.com/project/pvzrh-launcher)
-3. 选择你的语言并开始翻译
+2. 联系开发者获取写入权限：
+   - Discord：**elinmei0710**
+   - QQ：**2558527373**
+3. 找到我们的项目：[pvzrh-launcher](https://crowdin.com/project/pvzrh-launcher)
+4. 选择你的语言并开始翻译
 
 Crowdin 会将 XML 文件解析为可翻译的段落，并高亮显示缺失的翻译。当源文件更改时，你可以看到差异。
 
