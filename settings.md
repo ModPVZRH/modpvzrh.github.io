@@ -12,6 +12,12 @@ Choose between Dark, Light, or System Default theme.
 ### Language
 Switch between English, 简体中文, or follow system language.
 
+### Monet Color (Material You)
+Enable color scheme based on the system accent color. Requires Android 12 or above.
+
+### Disable Animations
+Disabling animations can improve performance on some devices. Page transitions will become instant.
+
 ## In-Game
 
 ### Floating Log

@@ -40,6 +40,26 @@ Only one modpack can be active at a time. Activating a new one deactivates the p
 3. Select a .zip file
 4. The modpack will be imported with all its mods
 
+## Desktop Shortcut
+
+You can create a desktop shortcut for quick access to a modpack.
+
+1. Open your modpack
+2. Toggle **Create Shortcut** on
+3. A shortcut will be created on your home screen
+4. Tap the shortcut to launch the game directly with that modpack
+
+> **Note:** Some Chinese OEM devices (Xiaomi, Huawei, OPPO, Vivo) require you to manually grant shortcut permission in system settings.
+
+## Editing Modpack Icon
+
+You can customize the icon for each modpack.
+
+1. Open your modpack
+2. Tap the modpack icon
+3. Select an image from your device
+4. The icon will be saved and displayed on the modpack list and shortcut
+
 ## Browsing Mod Files
 
 1. Open your modpack

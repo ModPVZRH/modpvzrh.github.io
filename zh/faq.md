@@ -39,3 +39,9 @@ A: 尝试关闭未剥离的 libunity、清除 libunity 缓存，或清除 BepInE
 
 **Q: 如何报告 Bug？**
 A: 从崩溃弹窗或日志查看器导出日志，然后在 [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions) 分享。
+
+**Q: 游戏一直处于"正在准备..."状态怎么办？**
+A: 这通常是因为存储权限未授予。中国厂商（小米、华为、OPPO、Vivo 等）对 Android 系统进行了魔改，因此标准的权限请求可能无法正常工作。请在系统设置中手动授予"所有文件访问"权限。你也可以通过[贡献代码](https://github.com/ModPVZRH/PVZRH.Android.Launcher)来帮助我们提升兼容性。
+
+**Q: 无法创建桌面快捷方式怎么办？**
+A: 部分中国厂商设备需要手动授予快捷方式权限。请前往系统设置 → 应用 → PVZRH 启动器 → 权限，开启快捷方式权限。你也可以通过[贡献代码](https://github.com/ModPVZRH/PVZRH.Android.Launcher)来帮助我们提升兼容性。

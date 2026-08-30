@@ -39,3 +39,9 @@ A: Try disabling Unstripped libunity, clearing libunity cache, or clearing BepIn
 
 **Q: How do I report a bug?**
 A: Export logs from the crash dialog or log viewer and share them on [GitHub Discussions](https://github.com/ModPVZRH/PVZRH.Android.Launcher/discussions).
+
+**Q: My game stays stuck on "Preparing..." status.**
+A: This usually means storage permission is not granted. Chinese OEM manufacturers (Xiaomi, Huawei, OPPO, Vivo, etc.) have modified their Android systems, so the standard permission request may not work correctly. Please manually grant "All Files Access" permission in your system settings. You can also [contribute](https://github.com/ModPVZRH/PVZRH.Android.Launcher) to help us improve compatibility.
+
+**Q: I cannot create a desktop shortcut.**
+A: Some Chinese OEM devices require you to manually grant shortcut permission. Go to your system settings → Apps → PVZRH Launcher → Permissions, and enable the shortcut permission. You can also [contribute](https://github.com/ModPVZRH/PVZRH.Android.Launcher) to help us improve compatibility.
