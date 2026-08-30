@@ -12,8 +12,8 @@ title: 翻译指南
 
 1. 访问 [crowdin.com](https://crowdin.com/) 并注册账号
 2. 联系开发者获取写入权限：
-   - Discord：**elinmei0710**
-   - QQ：**2558527373**
+   - Discord：**elinmei0710** / **librahp_0928**
+   - QQ：**2558527373** / **718038005**
 3. 找到我们的项目：[pvzrh-launcher](https://crowdin.com/project/pvzrh-launcher)
 4. 选择你的语言并开始翻译
 

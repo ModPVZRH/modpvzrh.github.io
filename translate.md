@@ -12,8 +12,8 @@ We use [Crowdin](https://crowdin.com/project/pvzrh-launcher) to manage translati
 
 1. Go to [crowdin.com](https://crowdin.com/) and sign up
 2. Contact the developer to get write access:
-   - Discord: **elinmei0710**
-   - QQ: **2558527373**
+   - Discord: **elinmei0710** / **librahp_0928**
+   - QQ: **2558527373** / **718038005**
 3. Find our project: [pvzrh-launcher](https://crowdin.com/project/pvzrh-launcher)
 4. Select your language and start translating
 
