@@ -27,7 +27,8 @@ export default defineConfig({
             text: 'Guide',
             items: [
               { text: 'Installation', link: '/installation' },
-              { text: 'Quick Start', link: '/quick-start' }
+              { text: 'Quick Start', link: '/quick-start' },
+              { text: 'Architecture', link: '/architecture' }
             ]
           },
           {
@@ -75,7 +76,8 @@ export default defineConfig({
             text: '指南',
             items: [
               { text: '安装', link: '/zh/installation' },
-              { text: '快速开始', link: '/zh/quick-start' }
+              { text: '快速开始', link: '/zh/quick-start' },
+              { text: '架构', link: '/zh/architecture' }
             ]
           },
           {

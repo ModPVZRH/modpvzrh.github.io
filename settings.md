@@ -10,13 +10,15 @@ title: Settings
 Choose between Dark, Light, or System Default theme.
 
 ### Language
-Switch between English, 简体中文, or follow system language.
+Choose from 19 languages including English, 简体中文, 繁體中文, 日本語, 한국어, Русский, Português, Español, Deutsch, Français, and more. Select "System Default" to follow your device language.
 
 ### Monet Color (Material You)
 Enable color scheme based on the system accent color. Requires Android 12 or above.
 
 ### Disable Animations
-Disabling animations can improve performance on some devices. Page transitions will become instant.
+Disabling animations can improve performance on some devices. When enabled, page transitions become instant and the bottom navigation bar hides automatically.
+
+**Note:** Enabling this option requires an app restart. A dialog will prompt you to restart immediately or cancel. Turning the option off takes effect immediately without restart.
 
 ## In-Game
 
