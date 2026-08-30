@@ -44,7 +44,8 @@ export default defineConfig({
             items: [
               { text: 'Troubleshooting', link: '/troubleshooting' },
               { text: 'FAQ', link: '/faq' },
-              { text: 'Contributing', link: '/contributing' }
+              { text: 'Contributing', link: '/contributing' },
+              { text: 'Translate', link: '/translate' }
             ]
           }
         ],
@@ -91,7 +92,8 @@ export default defineConfig({
             items: [
               { text: '故障排查', link: '/zh/troubleshooting' },
               { text: '常见问题', link: '/zh/faq' },
-              { text: '贡献指南', link: '/zh/contributing' }
+              { text: '贡献指南', link: '/zh/contributing' },
+              { text: '翻译指南', link: '/zh/translate' }
             ]
           }
         ],
