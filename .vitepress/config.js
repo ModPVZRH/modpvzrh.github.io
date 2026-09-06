@@ -48,6 +48,14 @@ export default defineConfig({
               { text: 'Contributing', link: '/contributing' },
               { text: 'Translate', link: '/translate' }
             ]
+          },
+          {
+            text: 'Resources',
+            items: [
+              { text: 'All Documents', link: '/docs' },
+              { text: 'Sponsor', link: '/sponsor' },
+              { text: 'Privacy Policy', link: '/privacy' }
+            ]
           }
         ],
         socialLinks: [
@@ -96,6 +104,14 @@ export default defineConfig({
               { text: '常见问题', link: '/zh/faq' },
               { text: '贡献指南', link: '/zh/contributing' },
               { text: '翻译指南', link: '/zh/translate' }
+            ]
+          },
+          {
+            text: '资源',
+            items: [
+              { text: '全部文档', link: '/zh/docs' },
+              { text: '赞助', link: '/zh/sponsor' },
+              { text: '隐私政策', link: '/zh/privacy' }
             ]
           }
         ],

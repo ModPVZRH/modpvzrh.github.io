@@ -62,3 +62,19 @@ title: 故障排查
 - 在 Android 设置 → 应用 → PVZRH Launcher → 存储 → 清除数据
 - 重新安装启动器
 - 检查是否运行的是受支持的 Android 版本（API 26+）
+
+## 存档数据访问（Android 12+）
+
+在 Android 12 及以上版本，启动器使用 **Shizuku** 访问游戏存档数据。如果看到安装 Shizuku 的提示：
+
+1. 从 Play Store 或 GitHub 安装 [Shizuku](https://shizuku.rikka.app/)
+2. 打开 Shizuku 并启动（按照应用内说明操作）
+3. 启动器提示时授予权限
+
+**为什么需要？**
+Android 12+ 限制了存储访问框架（SAF）持久访问 `Android/data` 目录的能力。Shizuku 提供 shell 级别的访问权限，可在所有 Android 版本上可靠工作。
+
+**Shizuku 无法启动？**
+- 确保开发者选项中已启用 USB 调试
+- 部分设备启用开发者选项后可能需要重启
+- 中国品牌设备（小米、华为、OPPO、Vivo）可能有额外限制——请查阅 Shizuku 文档了解设备特定说明

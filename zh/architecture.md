@@ -49,3 +49,23 @@ PVZRH 启动器使用 **Pine**（Java 方法 Hook 框架）在运行时将 BepIn
 - 游戏类可以引用 BepInEx 模组类型
 - BepInEx 模组可以引用游戏类型
 - 遇到 `ClassNotFoundException` 时回退到另一个加载器
+
+### 存档数据访问
+
+启动器根据 Android 版本使用不同方式访问游戏存档数据：
+
+| Android 版本 | API 等级 | 方式 | 备注 |
+|-------------|---------|------|------|
+| Android 10 及以下 | ≤29 | 直接文件访问 | 无需特殊权限 |
+| Android 11 | 30 | SAF（存储访问框架） | 需要用户通过系统选择器授予目录访问权限 |
+| Android 12+ | ≥31 | Shizuku | 需要安装并授权 Shizuku 应用 |
+
+**为什么需要 Shizuku？**
+Android 12+ 限制了 SAF 持久访问 `Android/data` 目录的能力。Shizuku 提供 shell 级别（`uid 2000`）的访问权限，可在所有 Android 版本上可靠工作，不受 SAF 限制。
+
+**备份位置：**
+```text
+/storage/emulated/0/PVZRH_Launcher/<package>/saves_backup/
+├── G2L/    # 游戏 → 启动器备份
+└── L2G/    # 启动器 → 游戏恢复
+```
