@@ -49,3 +49,23 @@ A bidirectional ClassLoader hook enables cross-class-loader references:
 - Game classes can reference BepInEx mod types
 - BepInEx mods can reference game types
 - Falls back to the other loader on `ClassNotFoundException`
+
+### Save Data Access
+
+The launcher uses different methods to access game save data depending on the Android version:
+
+| Android Version | API Level | Method | Notes |
+|-----------------|-----------|--------|-------|
+| Android 10 and below | ≤29 | Direct file access | No special permissions needed |
+| Android 11 | 30 | SAF (Storage Access Framework) | Requires user to grant directory access via system picker |
+| Android 12+ | ≥31 | Shizuku | Requires Shizuku app installed and authorized |
+
+**Why Shizuku?**
+Android 12+ restricted SAF's ability to persistently access the `Android/data` directory. Shizuku provides shell-level (`uid 2000`) access that works across all Android versions without the restrictions of SAF.
+
+**Backup location:**
+```text
+/storage/emulated/0/PVZRH_Launcher/<package>/saves_backup/
+├── G2L/    # Game → Launcher backup
+└── L2G/    # Launcher → Game restore
+```

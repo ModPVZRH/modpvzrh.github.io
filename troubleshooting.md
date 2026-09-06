@@ -62,3 +62,19 @@ This means the `:game` process has exited unexpectedly. Tap **Export Logs** to s
 - Clear launcher data in Android Settings → Apps → PVZRH Launcher → Storage → Clear Data
 - Reinstall the launcher
 - Check that you're running a supported Android version (API 26+)
+
+## Save data access (Android 12+)
+
+On Android 12 and above, the launcher uses **Shizuku** to access game save data. If you see a prompt to install Shizuku:
+
+1. Install [Shizuku](https://shizuku.rikka.app/) from the Play Store or GitHub
+2. Open Shizuku and start it (follow the in-app instructions)
+3. Grant permission when prompted by the launcher
+
+**Why is this needed?**
+Android 12+ restricted the Storage Access Framework (SAF) from persistently accessing the `Android/data` directory. Shizuku provides shell-level access that works reliably across all Android versions.
+
+**Shizuku won't start?**
+- Ensure USB debugging is enabled in Developer Options
+- On some devices, you may need to restart after enabling Developer Options
+- Chinese OEM devices (Xiaomi, Huawei, OPPO, Vivo) may have additional restrictions — check Shizuku's documentation for device-specific instructions
