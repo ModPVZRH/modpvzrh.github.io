@@ -8,7 +8,7 @@ title: Modpack Management
 
 1. Go to the **Modpacks** tab
 2. Tap **Create Modpack**
-3. Enter a name and confirm
+3. Enter a name and optionally choose an icon
 4. The modpack is created and ready for mods
 
 ## Adding Mods
@@ -27,6 +27,23 @@ title: Modpack Management
 
 Only one modpack can be active at a time. Activating a new one deactivates the previous.
 
+## Mod Controls
+
+### Enable/Disable Mods
+Each mod in a modpack can be individually enabled or disabled without removing it. Toggle the switch next to any mod to control whether it loads at launch.
+
+### Rename Mods
+You can set a custom display name for any mod. This is useful when the DLL filename doesn't clearly indicate what the mod does.
+
+### Mod Counts
+The modpack list shows enabled/total mod counts for quick reference.
+
+### Sort & Search
+On the modpack detail page, you can sort mods and use the search bar to quickly find specific mods.
+
+### Draggable Scrollbar
+A draggable scrollbar on the mod list allows quick navigation through large mod collections.
+
 ## Import/Export
 
 ### Export
@@ -37,8 +54,11 @@ Only one modpack can be active at a time. Activating a new one deactivates the p
 ### Import
 1. Go to the **Modpacks** tab
 2. Tap **Import Modpack**
-3. Select a .zip file
+3. Select a .zip or .rhp file
 4. The modpack will be imported with all its mods
+
+### Auto Scan Downloads
+The launcher can scan your Downloads folder for compatible .rhp modpack files. Tap **Import Modpack** and select **Auto Scan** to discover and import modpacks automatically.
 
 ## Desktop Shortcut
 
@@ -65,4 +85,5 @@ You can customize the icon for each modpack.
 1. Open your modpack
 2. Tap **Browse Mod Files**
 3. View all files and directories in the modpack
-4. Tap a file to view or edit it
+4. Tap a text file (.cfg, .json, .ini, .log, etc.) to open it in the built-in editor
+5. Delete files you no longer need with the delete button

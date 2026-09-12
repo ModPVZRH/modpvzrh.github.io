@@ -10,7 +10,7 @@ title: 设置
 选择深色、浅色或跟随系统主题。
 
 ### 语言
-支持 19 种语言，包括 English、简体中文、繁體中文、日本語、한국어、Русский、Português、Español、Deutsch、Français 等。选择"跟随系统"可使用设备语言。
+支持 26 种语言，包括 English、简体中文、繁體中文、日本語、한국어、Русский、Português、Español、Deutsch、Français、العربية、Bahasa Indonesia、Bahasa Melayu、മലയാളം、Türkçe、Українська 等。选择"跟随系统"可使用设备语言。
 
 ### 莫奈取色（Material You）
 启用基于系统主题色的配色方案。需要 Android 12 及以上版本。

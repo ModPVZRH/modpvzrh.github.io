@@ -24,10 +24,19 @@ Thank you for your interest in contributing to PVZRH Android Launcher!
 ## Build
 
 ```powershell
-.\gradlew.bat assembleDebug
+$env:ANDROID_HOME="E:\Android\Sdk"; .\gradlew.bat :app:assembleDebug
 ```
 
 Output: `app/build/outputs/apk/debug/app-debug.apk`
+
+## Installing to Device
+
+Always uninstall first, then install:
+
+```powershell
+adb uninstall com.pvzrh.android.launcher
+adb install app\build\outputs\apk\debug\app-debug.apk
+```
 
 ## Code Style
 
@@ -35,6 +44,7 @@ Output: `app/build/outputs/apk/debug/app-debug.apk`
 - Follow existing patterns in the codebase
 - Keep comments minimal — describe *what* and *why*, not *how*
 - Code comments max 2 lines
+- Summary/class-level comments only
 
 ## Commit Convention
 
@@ -43,6 +53,7 @@ Output: `app/build/outputs/apk/debug/app-debug.apk`
 - `refactor: improve code structure`
 - `docs: update documentation`
 - `ci: change CI configuration`
+- `ui: visual changes`
 
 ## Pull Requests
 

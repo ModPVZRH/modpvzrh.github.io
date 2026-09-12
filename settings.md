@@ -10,7 +10,7 @@ title: Settings
 Choose between Dark, Light, or System Default theme.
 
 ### Language
-Choose from 19 languages including English, 简体中文, 繁體中文, 日本語, 한국어, Русский, Português, Español, Deutsch, Français, and more. Select "System Default" to follow your device language.
+Choose from 26 languages including English, 简体中文, 繁體中文, 日本語, 한국어, Русский, Português, Español, Deutsch, Français, العربية, Bahasa Indonesia, Bahasa Melayu, मलयालम, Türkçe, Українська, and more. Select "System Default" to follow your device language.
 
 ### Monet Color (Material You)
 Enable color scheme based on the system accent color. Requires Android 12 or above.

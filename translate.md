@@ -19,6 +19,10 @@ We use [Crowdin](https://crowdin.com/project/pvzrh-launcher) to manage translati
 
 Crowdin parses XML files into translatable segments and highlights missing translations. You can see diffs when source files change.
 
+## Supported Languages (26)
+
+English, 简体中文, 繁體中文, 日本語, 한국어, Русский, Português (Brazil), Português (Portugal), Español, Deutsch, Français, Italiano, Nederlands, العربية (Egypt), العربية (Saudi), Bahasa Indonesia, Bahasa Melayu, മലയാളം, Türkçe, Українська, ไทย,.vec (Venetian)
+
 ## Translation Guidelines
 
 ### File Format
@@ -33,6 +37,13 @@ Crowdin parses XML files into translatable segments and highlights missing trans
 ### Technical Terms
 Some terms are kept in English even in translations:
 BepInEx, .NET, libunity, IL2CPP, Git, GitHub, DLL, APK
+
+## Adding a New Language
+
+1. Contact the developer on Discord or QQ
+2. We'll add the language to Crowdin and the Android project
+3. Start translating on Crowdin
+4. Once complete, we'll merge your translations
 
 ## Questions?
 

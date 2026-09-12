@@ -24,10 +24,19 @@ title: 贡献指南
 ## 构建
 
 ```powershell
-.\gradlew.bat assembleDebug
+$env:ANDROID_HOME="E:\Android\Sdk"; .\gradlew.bat :app:assembleDebug
 ```
 
 输出路径：`app/build/outputs/apk/debug/app-debug.apk`
+
+## 安装到设备
+
+先卸载，再安装：
+
+```powershell
+adb uninstall com.pvzrh.android.launcher
+adb install app\build\outputs\apk\debug\app-debug.apk
+```
 
 ## 代码规范
 
@@ -35,6 +44,7 @@ title: 贡献指南
 - 遵循代码库中的现有模式
 - 注释保持简洁 — 描述"做什么"和"为什么"，而非"怎么做"
 - 代码注释最多 2 行
+- 仅在摘要/类级别添加注释
 
 ## 提交规范
 
@@ -43,6 +53,7 @@ title: 贡献指南
 - `refactor: 重构代码`
 - `docs: 更新文档`
 - `ci: 修改 CI 配置`
+- `ui: 界面变更`
 
 ## Pull Request
 

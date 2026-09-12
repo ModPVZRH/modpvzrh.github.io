@@ -20,7 +20,9 @@ When a crash is detected, a dialog appears showing:
 
 - The crash signal (if available)
 - A snippet of the crash log (last 25 relevant lines)
-- An option to **Export Logs**
+- **Close** — Dismiss the dialog
+- **Copy** — Copy the crash log to clipboard
+- **Export Logs** — Share the full log files via system share sheet
 
 ## Exporting Logs
 

@@ -13,10 +13,10 @@ Welcome to the official documentation for PVZRH Launcher.
 
 ## Features
 
-- [Modpack Management](/modpacks) — Create, activate, import, export modpacks
+- [Modpack Management](/modpacks) — Create, activate, import, export modpacks, manage individual mods
 - [Settings](/settings) — Theme, language, in-game options, maintenance
-- [Crash Detection](/crash-detection) — Automatic crash detection and log export
-- [Log Viewer](/log-viewer) — View and share BepInEx logs
+- [Crash Detection](/crash-detection) — Automatic crash detection with close, copy, and export
+- [Log Viewer](/log-viewer) — View BepInEx logs, edit config files, customize viewer settings
 
 ## Help
 

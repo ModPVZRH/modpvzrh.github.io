@@ -19,6 +19,10 @@ title: 翻译指南
 
 Crowdin 会将 XML 文件解析为可翻译的段落，并高亮显示缺失的翻译。当源文件更改时，你可以看到差异。
 
+## 支持的语言（26 种）
+
+English, 简体中文, 繁體中文, 日本語, 한국어, Русский, Português (巴西), Português (葡萄牙), Español, Deutsch, Français, Italiano, Nederlands, العربية (埃及), العربية (沙特), Bahasa Indonesia, Bahasa Melayu, മലയാളം, Türkçe, Українська, ไทย, vec（威尼斯语）
+
 ## 翻译规范
 
 ### 文件格式
@@ -33,6 +37,13 @@ Crowdin 会将 XML 文件解析为可翻译的段落，并高亮显示缺失的�
 ### 技术术语
 以下术语在翻译中保留英文：
 BepInEx、.NET、libunity、IL2CPP、Git、GitHub、DLL、APK
+
+## 添加新语言
+
+1. 在 Discord 或 QQ 上联系开发者
+2. 我们会将该语言添加到 Crowdin 和 Android 项目中
+3. 在 Crowdin 上开始翻译
+4. 翻译完成后，我们会合并你的翻译
 
 ## 有问题？
 
