@@ -22,3 +22,5 @@ Welcome to the official documentation for PVZRH Launcher.
 
 - [Troubleshooting](/troubleshooting) — Common issues and solutions
 - [FAQ](/faq) — Frequently asked questions
+- [Contributing](/contributing) — How to contribute to the project
+- [Translate](/translate) — Help translate the launcher

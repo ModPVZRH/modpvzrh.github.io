@@ -22,3 +22,5 @@ title: 文档
 
 - [故障排查](/zh/troubleshooting) — 常见问题和解决方案
 - [常见问题](/zh/faq) — 常见问题解答
+- [贡献指南](/zh/contributing) — 如何参与项目贡献
+- [翻译指南](/zh/translate) — 帮助翻译启动器
